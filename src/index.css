@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #f5ede1;
+  --color-latte: #e6d3b8;
+  --color-caramel: #c08a52;
+  --color-mocha: #7a4e2d;
+  --color-espresso: #3b2416;
+  --font-serif: "Fraunces", serif;
+  --font-sans: "DM Sans", sans-serif;
+}
+
+body {
+  @apply bg-cream text-espresso font-sans antialiased;
+}
+html { scroll-behavior: smooth; }
